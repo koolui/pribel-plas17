@@ -1,0 +1,227 @@
+/*!
+ * pribel-plas17
+ * Free HTML Pricing Table - Bootstrap 4 Template #17
+ * git+https://github.com/koolui/pribel-plas17.git
+ * @author Kool UI Studio
+ * @version 1.0.0
+ * Copyright 2019. SEE LICENCE IN README.md licensed.
+ */
+.adscard {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 15px auto;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+  .adscard:after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    content: "Affiliate";
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0 5px;
+    font-size: 10px; }
+  .adscard--live {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .adscard__img {
+    border-radius: 3px; }
+    .adscard__img img {
+      width: 80px;
+      border-radius: 3px; }
+  .adscard__caption {
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .adscard__caption a {
+      text-decoration: none;
+      color: #ffffff; }
+      .adscard__caption a:hover {
+        text-decoration: underline; }
+    .adscard__caption span {
+      display: block; }
+    .adscard__caption__secondary {
+      font-size: 12px;
+      margin-top: 5px; }
+      .adscard__caption__secondary > a {
+        color: rgba(255, 255, 255, 0.7); }
+
+.livedemo {
+  padding-top: 80px; }
+  .livedemo nav .form-inline .btn {
+    margin-right: 6px; }
+    .livedemo nav .form-inline .btn:last-child {
+      margin-right: 0; }
+  .livedemo .footerdemo {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    color: #ffffff; }
+    .livedemo .footerdemo a {
+      color: #ffffff;
+      text-decoration: underline; }
+
+body {
+  font-size: 16px;
+  background-color: #3C485E; }
+
+.koolui-pribel-plas17 {
+  font-family: "Open Sans", sans-serif;
+  padding: 60px 0; }
+  .koolui-pribel-plas17 .item {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center; }
+    .koolui-pribel-plas17 .item:before {
+      width: 400px;
+      height: 400px;
+      border-radius: 200px;
+      content: "";
+      position: absolute;
+      right: 30px;
+      top: -200px;
+      z-index: 0; }
+    .koolui-pribel-plas17 .item--01:before {
+      background-color: #FF5B5A; }
+    .koolui-pribel-plas17 .item--01 .item__pricing p {
+      color: #FF5B5A; }
+    .koolui-pribel-plas17 .item--01 .btn.btn-primary {
+      background-color: #FF5B5A;
+      border-color: #FF5B5A; }
+      .koolui-pribel-plas17 .item--01 .btn.btn-primary:hover {
+        background-color: #ff4241;
+        border-color: #ff4241; }
+    .koolui-pribel-plas17 .item--02:before {
+      background-color: #F5C86F; }
+    .koolui-pribel-plas17 .item--02 .item__pricing p {
+      color: #F5C86F; }
+    .koolui-pribel-plas17 .item--02 .btn.btn-primary {
+      background-color: #F5C86F;
+      border-color: #F5C86F; }
+      .koolui-pribel-plas17 .item--02 .btn.btn-primary:hover {
+        background-color: #f3bf57;
+        border-color: #f3bf57; }
+    .koolui-pribel-plas17 .item--03:before {
+      background-color: #77B852; }
+    .koolui-pribel-plas17 .item--03 .item__pricing p {
+      color: #77B852; }
+    .koolui-pribel-plas17 .item--03 .btn.btn-primary {
+      background-color: #77B852;
+      border-color: #77B852; }
+      .koolui-pribel-plas17 .item--03 .btn.btn-primary:hover {
+        background-color: #6aab46;
+        border-color: #6aab46; }
+    .koolui-pribel-plas17 .item--04:before {
+      background-color: #7E9BFF; }
+    .koolui-pribel-plas17 .item--04 .item__pricing p {
+      color: #7E9BFF; }
+    .koolui-pribel-plas17 .item--04 .btn.btn-primary {
+      background-color: #7E9BFF;
+      border-color: #7E9BFF; }
+      .koolui-pribel-plas17 .item--04 .btn.btn-primary:hover {
+        background-color: #6587ff;
+        border-color: #6587ff; }
+    @media screen and (min-width: 992px) {
+      .koolui-pribel-plas17 .item {
+        margin-bottom: 0; } }
+    .koolui-pribel-plas17 .item__media {
+      width: 64px;
+      height: 64px;
+      margin: 20px auto 60px;
+      display: block;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      position: relative;
+      z-index: 3; }
+      .koolui-pribel-plas17 .item__media:before, .koolui-pribel-plas17 .item__media:after {
+        content: "";
+        position: absolute; }
+      .koolui-pribel-plas17 .item__media:after {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.05);
+                box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.05);
+        z-index: 1; }
+      .koolui-pribel-plas17 .item__media:before {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        background-color: rgba(255, 255, 255, 0.2);
+        z-index: 0; }
+      .koolui-pribel-plas17 .item__media img {
+        position: relative;
+        z-index: 3;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%; }
+    .koolui-pribel-plas17 .item__heading h3 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      margin: 0;
+      margin-bottom: 60px;
+      position: relative;
+      letter-spacing: 5px;
+      color: #ffffff; }
+    .koolui-pribel-plas17 .item__content ul {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      list-style: none; }
+      .koolui-pribel-plas17 .item__content ul li {
+        line-height: 30px;
+        color: #999999;
+        margin: 0;
+        font-size: .875rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .koolui-pribel-plas17 .item__content ul li strong {
+          color: #4A4A4A; }
+    .koolui-pribel-plas17 .item__pricing {
+      margin-bottom: 30px; }
+      .koolui-pribel-plas17 .item__pricing p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.875rem;
+        font-weight: 700;
+        line-height: 2.5rem; }
+        .koolui-pribel-plas17 .item__pricing p span {
+          font-weight: 300; }
+    .koolui-pribel-plas17 .item .btn.btn-primary {
+      color: #ffffff;
+      height: 44px;
+      border-radius: 22px;
+      font-weight: 700;
+      font-size: .875rem; }

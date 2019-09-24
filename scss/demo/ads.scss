@@ -1,0 +1,63 @@
+// You don't need this.
+// Only for advertising or affiliate component.
+.adscard {
+    padding: 10px;
+    background: rgba(255,255,255,0.3);
+    margin: 15px auto;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 6px;
+    display: flex;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.5);
+    &:after {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        content: "Affiliate";
+        background-color: rgba(0,0,0,0.2);
+        color: white;
+        padding: 3px 5px;
+        border-radius: 0 5px;
+        font-size: 10px;
+    }
+    &--live {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    &__img {
+        // border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 3px;
+        img {
+            width: 80px;
+            border-radius: 3px;
+        }
+    }
+    &__caption {
+        margin: 0;
+        line-height: 16px;
+        font-size: 14px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        span {
+            display: block;
+        }
+        &__main {}
+        &__secondary {
+            font-size: 12px;
+            margin-top: 5px;
+            > a {
+                color: rgba(255,255,255,0.7);
+            }
+        }
+    }
+}
