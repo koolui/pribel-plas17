@@ -37,4 +37,4 @@ No attribution or link back to this site is required, however, any credit (or **
 ####  YOU CAN'T:
 You do not have the rights to resell, sublicense or redistribute (even for free) the files on its own or as a separated attachment from any of your work. ***If you wish to promote my resources on your site or other media (e.g your social media accounts), you must link back to the resource page where the users can find the download and not directly to the download files.***
 
-Read more about license [here](https://freehtmldesign.blogspot.com/p/terms-and-licenses.html)
+Read more about license [here](http://freehtmldesign.com/p/terms-and-licenses.html)
